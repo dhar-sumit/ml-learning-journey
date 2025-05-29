@@ -1,40 +1,36 @@
 # Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # Ignore VS Code and Jupyter editor virtual documents
-.virtual_documents
+.virtual_documents/
 
 # Ignore Python cache and compiled files
-__pycache__
-.py[cod]
-.so
+__pycache__/
+*.py[cod]
+*.so
 
 # Ignore environment files
 .env
-.venv
-env
-venv
-ENV
-.env
+.venv/
+env/
+venv/
+ENV/
 
 # Ignore system files
 .DS_Store
 Thumbs.db
 
 # Ignore logs and outputs
-.log
-.out
+*.log
+*.out
 
 # Ignore temporary files
-.bak
-.swp
-~
-
-# Ignore data files (optional — remove this section if you want to keep data in repo)
-
+*.bak
+*.swp
+*~
 
 # Ignore Jupyter notebook autosave files
-.nbconvert.ipynb
+*.nbconvert.ipynb
 
 # Ignore GitHub-specific
 .DS_Store
